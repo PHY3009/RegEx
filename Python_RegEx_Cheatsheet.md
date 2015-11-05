@@ -2,11 +2,16 @@
 
 ### Functions:
 ~~~
-re.search(pattern_to_search, string_to_search_in)	##function to find a regular expression in a string (returns a match object or none)
+re.search(pattern_to_search, string_to_search_in)	## function to find a regular 
+													## expression in a string (returns a 
+													## match object or none)
 
 match.group(k)	##function to extract the k'th regular expression from a string 
 
-re.findall(pattern_to_search, string_to_search_in) ##function to find more than one occurence of a regular expression in a string (returns a match object or none)
+re.findall(pattern_to_search, string_to_search_in) 	## function to find more than one 
+													## occurence of a regular expression 
+													## in a string (returns a match object 
+													## or none)
 
 re.compile(pattern_to_search) ##function to compile a pattern
 ~~~
